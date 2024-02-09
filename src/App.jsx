@@ -8,9 +8,9 @@ import Section1 from './components/Section1';
 function App() {
 
   return (
-    <>
-      <Header />
-      {/* <Section1/> */}
+    <>     
+        <Header />
+        <Section1 />      
     </>
   );
 }

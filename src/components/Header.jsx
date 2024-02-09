@@ -13,7 +13,7 @@ function Header() {
   }
   return (
     <>
-      <div className="min-h-screen min-[1200px]:min-h-[877px] bg-headerbg bg-no-repeat w-full bg-cover bg-center flex flex-col relative overflow-hidden">
+      <div className="min-h-screen min-[1200px]:min-h-[874px] bg-headerbg bg-[#09655A] bg-no-repeat w-full bg-cover bg-center flex flex-col relative overflow-hidden">
         {/* small screen navpage */}
         <ul
           className={`w-full h-full fixed flex min-[992px]:hidden justify-center items-center flex-col gap-10 z-[7] bg-[#C9F6FF] left-[-100%] duration-300 ${
@@ -236,11 +236,15 @@ function Header() {
         </div>
         {/* dino images */}
         <img
-          className="absolute w-[90px] min-[1200px]:w-[131px] min-[1200px]:h-[165px] left-[50%] bottom-[20%] min-[1441px]:bottom-[18%] animate-cycleright"
+          className="absolute w-[90px] min-[1200px]:w-[131px] min-[1200px]:h-[165px] left-[50%] bottom-[18%] min-[1441px]:bottom-[16%] animate-cycleright"
           src={dino2}
           alt="dino cartoon"
         />
-        <img className="absolute w-[120px] min-[1200px]:w-[211px] min-[1200px]:h-[267px] bottom-[8%] min-[1441px]:bottom-[10%] left-[50%] sm:left-[77%] animate-cycleleft2 sm:animate-cycleleft" src={dino1} alt="dino cartoon" />
+        <img
+          className="absolute w-[120px] min-[1200px]:w-[211px] min-[1200px]:h-[267px] bottom-[11%] min-[1441px]:bottom-[9%] left-[50%] sm:left-[77%] animate-cycleleft2 sm:animate-cycleleft"
+          src={dino1}
+          alt="dino cartoon"
+        />
       </div>
     </>
   );

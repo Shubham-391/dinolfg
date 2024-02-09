@@ -3,6 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        headerbg: "url(/src/assets/images/headerbg.webp)",
+        buttonbg: "url(/src/assets//images/button.webp)",
+        section1bg: "url(/src/assets/images/section1bg.webp)",
+      },
       keyframes: {
         cycleright: {
           "0%": { left: "50%", rotate: "y 0deg" },
@@ -48,11 +53,6 @@ export default {
     fontFamily: {
       chewy: ["Chewy"],
       balsamiq: ["Balsamiq Sans"],
-    },
-    backgroundImage: {
-      headerbg: "url(/src/assets/images/headerbg.webp)",
-      buttonbg: "url(/src/assets//images/button.webp)",
-      section1bg: "url(/src/assets/images/section1bg.webp)",
     },
   },
   plugins: [],
