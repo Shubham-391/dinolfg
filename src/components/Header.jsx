@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Discordb, Instagramb, Twitterb } from "./Icons";
 import aeroplane from "../assets/images/aeroplane.webp";
+import dino1 from "../assets/images/dino1.webp";
+import dino2 from "../assets/images/dino2.webp";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -11,7 +13,7 @@ function Header() {
   }
   return (
     <>
-      <div className="min-h-screen min-[1200px]:min-h-[877px] min-[1441px]:min-h-screen bg-headerbg bg-no-repeat w-full bg-cover bg-center flex flex-col">
+      <div className="min-h-screen min-[1200px]:min-h-[877px] bg-headerbg bg-no-repeat w-full bg-cover bg-center flex flex-col relative overflow-hidden">
         {/* small screen navpage */}
         <ul
           className={`w-full h-full fixed flex min-[992px]:hidden justify-center items-center flex-col gap-10 z-[7] bg-[#C9F6FF] left-[-100%] duration-300 ${
@@ -87,7 +89,7 @@ function Header() {
           </li>
           <li>
             <a
-              className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px]"
+              className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px] duration-300 hover:text-white"
               href=""
               onClick={() => setOpen(false)}
             >
@@ -96,7 +98,7 @@ function Header() {
           </li>
         </ul>
         {/* navbar */}
-        <nav className="max-w-[1164px] w-full px-3 mx-auto h-[95px] flex items-end">
+        <nav className="max-w-[1164px] w-full px-3 mx-auto h-[79px] min-[800px]:h-[95px] flex items-end">
           <div className="w-full h-[67px] border-b-[4px] border-solid border-black bg-white rounded-[61px] pl-6 pr-6 min-[992px]:pr-[7px] flex justify-between items-center sm:gap-x-24">
             <a href="">
               <div className="f-dino font-normal text-[30px] sm:text-[39.13px] sm:leading-[37.17px] drop-shadow-[0px_2px_#000000] z-10 relative">
@@ -174,7 +176,7 @@ function Header() {
                 </li>
                 <li className="hidden min-[992px]:block">
                   <a
-                    className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px]"
+                    className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px] duration-300 hover:text-white"
                     href=""
                   >
                     Join Now
@@ -206,25 +208,25 @@ function Header() {
           </div>
         </nav>
         {/* hero-section */}
-        <div className="max-w-[1164px] px-3 mx-auto grow w-full flex flex-wrap">
-          <div className="w-full min-[900px]:w-[50%] flex justify-center items-center min-[900px]:justify-start min-[900px]:items-start">
-            <div className="max-w-[394px] max-h-[241px] w-full lg:h-full min-[900px]:mt-[175px] min-[900px]:ml-[46px] p-3 sm:p-0">
+        <div className="max-w-[1164px] px-3 mx-auto grow w-full flex flex-col min-[800px]:flex-row">
+          <div className="w-full min-[800px]:w-[50%] flex justify-center min-[800px]:justify-start">
+            <div className="max-w-[250px] sm:max-w-[250px] min-[900px]:max-w-[350px] min-[1200px]:max-w-[394px] w-full mt-2 min-[800px]:ml-6 min-[1200px]:mt-[175px] min-[1200px]:ml-[46px]">
               <img
-                className="w-full lg:h-full object-cover"
+                className="w-full object-cover"
                 src={aeroplane}
                 alt="aeroplane"
               />
             </div>
           </div>
-          <div className="w-full min-[900px]:w-[50%] flex justify-center items-center min-[900px]:justify-start min-[900px]:items-start">
-            <div className="max-w-[398px] w-full flex flex-col items-center min-[900px]:ml-[10px] min-[900px]:mt-[83px]">
-              <div className="f-dino font-normal text-[130px] min-[900px]:text-[175.64px] leading-[120px] min-[900px]:leading-[166.85px] drop-shadow-[0px_6px_#000000]">
+          <div className="w-full min-[800px]:w-[50%]">
+            <div className="min-[1200px]:max-w-[398px] w-full flex flex-row justify-center min-[1200px]:flex-col items-center min-[1200px]:ml-[10px] min-[900px]:mt-[50px] min-[1200px]:mt-[83px]">
+              <div className="f-dino font-normal text-[75px] sm:text-[100px] lg:text-[120px] min-[1200px]:text-[175.64px] min-[1200px]:leading-[166.85px] drop-shadow-[0px_6px_#000000]">
                 <span className="text-[rgba(251,161,29,1)]">D</span>
                 <span className="text-[rgba(35,170,172,1)]">I</span>
                 <span className="text-[rgba(212,91,7,1)]">N</span>
                 <span className="text-[rgba(142,198,39,1)]">O</span>
               </div>
-              <div className="f-dino font-normal text-[130px] min-[900px]:text-[175.64px] leading-[120px] min-[900px]:leading-[166.85px] drop-shadow-[0px_6px_#000000]">
+              <div className="f-dino font-normal text-[75px] sm:text-[100px] lg:text-[120px] min-[1200px]:text-[175.64px] min-[1200px]:leading-[166.85px] drop-shadow-[0px_6px_#000000]">
                 <span className="text-[rgba(142,198,39,1)]">L</span>
                 <span className="text-[rgba(252,202,43,1)]">F</span>
                 <span className="text-[rgba(143,120,210,1)]">G</span>
@@ -232,6 +234,13 @@ function Header() {
             </div>
           </div>
         </div>
+        {/* dino images */}
+        <img
+          className="absolute w-[90px] min-[1200px]:w-[131px] min-[1200px]:h-[165px] left-[50%] bottom-[20%] min-[1441px]:bottom-[18%] animate-cycleright"
+          src={dino2}
+          alt="dino cartoon"
+        />
+        <img className="absolute w-[120px] min-[1200px]:w-[211px] min-[1200px]:h-[267px] bottom-[8%] min-[1441px]:bottom-[10%] left-[50%] sm:left-[77%] animate-cycleleft2 sm:animate-cycleleft" src={dino1} alt="dino cartoon" />
       </div>
     </>
   );
