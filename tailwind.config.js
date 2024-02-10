@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        headerbg: "url(/src/assets/images/headerbg.webp)",
-        buttonbg: "url(/src/assets//images/button.webp)",
-        section1bg: "url(/src/assets/images/section1bg.webp)",
-        section2bg: "url(/src/assets/images/section2bg.webp)",
+        headerbg: "url(/src/assets/images/webp/headerbg.webp)",
+        buttonbg: "url(/src/assets//images/webp/button.webp)",
+        section1bg: "url(/src/assets/images/webp/section1bg.webp)",
+        section2bg: "url(/src/assets/images/webp/section2bg.webp)",
       },
       keyframes: {
         cycleright: {

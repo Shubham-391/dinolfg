@@ -1,7 +1,7 @@
 import React from "react";
-import section1tree1 from "../assets/images/section1tree1.webp";
-import section1tree2 from "../assets/images/section1tree2.webp";
-import section1dino from "../assets/images/section1dino.webp";
+import section1tree1 from "../assets/images/webp/section1tree1.webp";
+import section1tree2 from "../assets/images/webp/section1tree2.webp";
+import section1dino from "../assets/images/webp/section1dino.webp";
 
 function Section1() {
   return (

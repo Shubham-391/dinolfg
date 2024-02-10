@@ -1,12 +1,12 @@
 import React from "react";
-import section2img from "../assets/images/section2img.webp";
-import supply from "../assets/images/supply.png";
-import market from "../assets/images/market.png";
-import tax from "../assets/images/tax.png";
-import mint from "../assets/images/mint.png";
-import lock from "../assets/images/lock.png";
-import section2dino2 from "../assets/images/section2dino2.webp";
-import section2dino from "../assets/images/section2dino.webp";
+import section2img from "../assets/images/webp/section2img.webp";
+import supply from "../assets/images/png/supply.png";
+import market from "../assets/images/png/market.png";
+import tax from "../assets/images/png/tax.png";
+import mint from "../assets/images/png/mint.png";
+import lock from "../assets/images/png/lock.png";
+import section2dino2 from "../assets/images/webp/section2dino2.webp";
+import section2dino from "../assets/images/webp/section2dino.webp";
 
 function Section2() {
   return (

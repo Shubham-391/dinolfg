@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Discordb, Instagramb, Twitterb } from "./Icons";
-import aeroplane from "../assets/images/aeroplane.webp";
-import dino1 from "../assets/images/dino1.webp";
-import dino2 from "../assets/images/dino2.webp";
+import aeroplane from "../assets/images/webp/aeroplane.webp";
+import dino1 from "../assets/images/webp/dino1.webp";
+import dino2 from "../assets/images/webp/dino2.webp";
 
 function Header() {
   const [open, setOpen] = useState(false);
