@@ -100,5 +100,21 @@ function Instagramw() {
       </svg>
     );
 }
+function Arrow() {
+  return (
+    <svg
+      width="16"
+      height="9"
+      viewBox="0 0 16 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.28571 8.53763e-07L8 5.625L13.7143 3.54204e-07L16 1.125L8 9L-3.44227e-07 1.125L2.28571 8.53763e-07Z"
+        fill="#0A4740"
+      />
+    </svg>
+  );
+}
 
-export { Twitterb, Twitterw, Discordb, Discordw, Instagramb, Instagramw };
+export { Twitterb, Twitterw, Discordb, Discordw, Instagramb, Instagramw, Arrow };
