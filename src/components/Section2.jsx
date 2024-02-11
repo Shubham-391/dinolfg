@@ -11,8 +11,16 @@ import section2dino from "../assets/images/webp/section2dino.webp";
 function Section2() {
   return (
     <>
-      <div className="min-h-[1220px] bg-section2bg bg-center bg-no-repeat bg-cover relative">
-        <div className="max-w-[1164px] mx-auto px-3">
+      <div
+        id="tokenomics"
+        className="min-h-[1220px] bg-section2bg bg-center bg-no-repeat bg-cover relative"
+      >
+        <div
+          className="max-w-[1164px] mx-auto px-3"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[80px]">
             Tokenomics
           </h2>
@@ -140,7 +148,7 @@ function Section2() {
         <img
           src={section2dino}
           alt="dino cartoon"
-          className="w-[150px] md:w-[211px] md:h-[193px] absolute bottom-[243px] left-[-11px]"
+          className="w-[150px] md:w-[211px] md:h-[193px] absolute bottom-[243px] left-[-11px] animate-jump"
         />
       </div>
     </>

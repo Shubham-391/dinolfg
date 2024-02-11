@@ -8,8 +8,16 @@ import section4bush from "../assets/images/webp/section4bush.webp";
 function Section4() {
   return (
     <>
-      <div className="bg-section4bg bg-center bg-no-repeat bg-cover min-[1100px]:min-h-[2685px] flex items-center py-[300px] min-[1100px]:py-0 ">
-        <div className="max-w-[1184px] w-full mx-auto px-3 min-[1100px]:min-h-[2168px]">
+      <div
+        id="roadmap"
+        className="bg-section4bg bg-center bg-no-repeat bg-cover min-[1100px]:min-h-[2685px] flex items-center py-[300px] min-[1100px]:py-0 "
+      >
+        <div
+          className="max-w-[1184px] w-full mx-auto px-3 min-[1100px]:min-h-[2168px]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <h2 className="font-chewy font-normal text-[64px] leading-[83.63px] text-center text-white mb-[50px] md:mb-[97px]">
             Roadmap
           </h2>

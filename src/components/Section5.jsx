@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Arrow } from "./Icons";
 
 function Section5() {
-  const [open, setOpen] = useState(0);
+  const [open, setOpen] = useState();
   const toggleAccordion = (index) => {
     setOpen(open === index ? true : index);
   };
@@ -35,8 +35,13 @@ function Section5() {
   ];
   return (
     <>
-      <div className="mb-12 md:mb-0 md:min-h-[902px] w-full">
-        <div className="max-w-[824px] mx-auto px-3">
+      <div id="faq" className="mb-12 md:mb-0 md:min-h-[902px] w-full">
+        <div
+          className="max-w-[824px] mx-auto px-3"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <h2 className="font-chewy font-normal text-[32px] sm:text-[64px] leading-[83.63px] text-center text-white mb-[30px] sm:mb-[61px]">
             FAQs
           </h2>

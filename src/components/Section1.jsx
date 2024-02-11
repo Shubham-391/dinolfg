@@ -6,8 +6,16 @@ import section1dino from "../assets/images/webp/section1dino.webp";
 function Section1() {
   return (
     <>
-      <div className="bg-section1bg bg-center bg-cover bg-no-repeat min-h-[690px] sm:min-h-[763px] relative overflow-hidden">
-        <div className="max-w-[623px] px-3 mx-auto pt-12 md:pt-[76px] relative z-[1]">
+      <div
+        id="about"
+        className="bg-section1bg bg-center bg-cover bg-no-repeat min-h-[690px] sm:min-h-[763px] relative overflow-hidden"
+      >
+        <div
+          className="max-w-[623px] px-3 mx-auto pt-12 md:pt-[76px] relative z-[1]"
+          data-aos="zoom-in"
+          data-aos-once="true"
+          data-aos-duration="1000"
+        >
           <h2 className="text-center mb-6 sm:mb-[42px]">
             <span className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-white">
               About{" "}
@@ -46,9 +54,21 @@ function Section1() {
             Twitter.
           </p>
         </div>
-        <img className="w-[250px] sm:w-[352px] sm:h-[446px] absolute top-[60px] right-[-90px] sm:right-[-125px]" src={section1tree1} alt="tree" />
-        <img className="absolute w-[230px] sm:w-[297px] sm:h-[421px] top-[260px] left-[-102px]" src={section1tree2} alt="tree" />
-        <img className="w-[120px] sm:w-[169px] sm:h-[205px] absolute right-0 bottom-0 min-[900px]:bottom-[27%]" src={section1dino} alt="dino cartoon" />
+        <img
+          className="w-[250px] sm:w-[352px] sm:h-[446px] absolute top-[60px] right-[-90px] sm:right-[-125px]"
+          src={section1tree1}
+          alt="tree"
+        />
+        <img
+          className="absolute w-[230px] sm:w-[297px] sm:h-[421px] top-[260px] left-[-102px]"
+          src={section1tree2}
+          alt="tree"
+        />
+        <img
+          className="w-[120px] sm:w-[169px] sm:h-[205px] absolute right-0 bottom-0 min-[900px]:bottom-[27%] animate-jump"
+          src={section1dino}
+          alt="dino cartoon"
+        />
       </div>
     </>
   );
