@@ -9,6 +9,7 @@ export default {
         section1bg: "url(/src/assets/images/webp/section1bg.webp)",
         section2bg: "url(/src/assets/images/webp/section2bg.webp)",
         section4bg: "url(/src/assets/images/webp/section4bg.webp)",
+        footerbg: "url(/src/assets/images/webp/footerbg.webp)",
       },
       keyframes: {
         cycleright: {
