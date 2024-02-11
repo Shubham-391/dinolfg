@@ -8,6 +8,7 @@ export default {
         buttonbg: "url(/src/assets//images/webp/button.webp)",
         section1bg: "url(/src/assets/images/webp/section1bg.webp)",
         section2bg: "url(/src/assets/images/webp/section2bg.webp)",
+        section4bg: "url(/src/assets/images/webp/section4bg.webp)",
       },
       keyframes: {
         cycleright: {
