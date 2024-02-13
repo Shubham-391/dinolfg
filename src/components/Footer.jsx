@@ -6,7 +6,7 @@ import footerdino from "../assets/images/webp/footerdino.webp";
 function Footer() {
   return (
     <>
-      <div className="w-full min-h-[475px] pt-12 md:pt-0 relative overflow-hidden">
+      <div className="w-full min-h-[475px] relative overflow-hidden">
         <div
           className="max-w-[400px] w-full mx-auto px-3 flex flex-col items-center"
           data-aos="zoom-in"

@@ -6,14 +6,14 @@ import section3tree from "../assets/images/webp/section3tree.webp";
 function Section3() {
   return (
     <>
-      <div className="relative mb-12 lg:mb-0 lg:min-h-[1069px] overflow-hidden">
+      <div className="relative mb-6 lg:mb-0 lg:min-h-[1069px] overflow-hidden">
         <div
           className="max-w-[1164px] w-full px-3 mx-auto flex flex-col items-center"
           data-aos="zoom-in"
           data-aos-once="true"
           data-aos-duration="1000"
         >
-          <h2 className="font-chewy font-normal text-[45px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[120px] sm:mb-[158px]">
+          <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[120px] sm:mb-[158px]">
             Utility and Usecase
           </h2>
           <div className="max-w-[1014px] w-full lg:min-h-[266px] bg-[#09655A] border border-solid border-white rounded-[20px] relative mb-[125px]">
@@ -41,7 +41,7 @@ function Section3() {
               </p>
             </div>
             <img
-              className="w-[100px] lg:w-[255px] lg:h-[323px] absolute bottom-[100%] lg:bottom-0 right-0 animate-cycleleft3 lg:animate-bounce lg:right-[24px]"
+              className="w-[100px] lg:w-[255px] lg:h-[323px] absolute bottom-[100%] lg:bottom-0 right-0 animate-cycleleft4 sm:animate-cycleleft3 lg:animate-jump lg:right-[24px]"
               src={section3dino1}
               alt="dino cartoon"
             />
@@ -53,7 +53,7 @@ function Section3() {
               burning mechanism
             </p>
             <img
-              className="absolute w-[110px] lg:w-[267px] lg:h-[334px] bottom-[100%] lg:bottom-0 left-0 lg:left-[-1%] animate-cycleright2 lg:animate-bounce"
+              className="absolute w-[110px] lg:w-[267px] lg:h-[334px] bottom-[100%] lg:bottom-0 left-0 lg:left-[-1%] animate-cycleright3 sm:animate-cycleright2 lg:animate-jump"
               src={section3dino2}
               alt="dino cartoon"
             />

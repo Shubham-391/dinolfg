@@ -13,7 +13,7 @@ function Section2() {
     <>
       <div
         id="tokenomics"
-        className="min-h-[1166px] bg-section2bg bg-center bg-no-repeat bg-cover relative"
+        className="mb-12 md:mb-0 md:min-h-[1166px] bg-section2bg bg-center bg-no-repeat bg-cover relative"
       >
         <div
           className="max-w-[1164px] mx-auto px-3"
@@ -21,7 +21,7 @@ function Section2() {
           data-aos-once="true"
           data-aos-duration="1000"
         >
-          <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[80px]">
+          <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-6 md:mb-[80px]">
             Tokenomics
           </h2>
           <div className="relative hidden min-[1150px]:block">
@@ -96,49 +96,49 @@ function Section2() {
             <div className="flex flex-col gap-y-4">
               {/* supply */}
               <div className="max-w-[228px] w-full flex gap-2">
-                <div className="w-[25px] h-[25px] bg-[#FBA11D] rounded mt-1"></div>
+                <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#FBA11D] rounded mt-1"></div>
                 <div className="max-w-[189px]">
-                  <p className="font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#FBA11D] text-left">
+                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#FBA11D] text-left">
                     333,333,333
                   </p>
-                  <p className="font-balsamiq font-normal text-[24px] leading-[33.24px] text-white mr-[3px] text-left">
+                  <p className="font-balsamiq font-normal text-lg sm:text-[24px] sm:leading-[33.24px] text-white mr-[3px] text-left">
                     Supply
                   </p>
                 </div>
               </div>
               {/* market */}
               <div className="max-w-[242px] w-full flex gap-2">
-                <div className="w-[25px] h-[25px] bg-[#23AAAC] rounded mt-1"></div>
+                <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#23AAAC] rounded mt-1"></div>
                 <div className="max-w-[203px]">
-                  <p className="font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#23AAAC]">
+                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
                     95% Uniswa
                   </p>
-                  <p className="font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#23AAAC]">
+                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
                     5% Marketing
                   </p>
-                  <p className="font-balsamiq font-normal text-[23.65px] leading-[32.76px] text-white">
+                  <p className="font-balsamiq font-normal text-lg sm:text-[23.65px] sm:leading-[32.76px] text-white">
                     Allocation
                   </p>
                 </div>
               </div>
               {/* tax */}
               <div className="max-w-[180px] w-full flex gap-2">
-                <div className="w-[25px] h-[25px] bg-[#D45B07] rounded mt-1"></div>
-                <p className="font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#D45B07] text-start">
+                <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#D45B07] rounded mt-1"></div>
+                <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#D45B07] text-start">
                   No Tax
                 </p>
               </div>
               {/* mint */}
               <div className="max-w-[280px] w-full flex gap-2">
-                <div className="w-[25px] h-[25px] bg-[#FB5352] rounded mt-1"></div>
-                <p className="font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#FB5352] text-start">
+                <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#FB5352] rounded mt-1"></div>
+                <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#FB5352] text-start">
                   No Mint Function
                 </p>
               </div>
               {/* lock */}
               <div className="max-w-[258px] w-full flex gap-2">
-                <div className="w-[25px] h-[25px] bg-[#8EC627] rounded mt-1"></div>
-                <p className="max-w-[217px] font-balsamiq font-normal text-[32px] leading-[38.4px] text-[#8EC627] text-start">
+                <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#8EC627] rounded mt-1"></div>
+                <p className="max-w-[217px] font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#8EC627] text-start">
                   Liquidity lock for 1 year
                 </p>
               </div>
@@ -148,7 +148,7 @@ function Section2() {
         <img
           src={section2dino}
           alt="dino cartoon"
-          className="w-[150px] md:w-[211px] md:h-[193px] absolute bottom-[243px] left-[-11px] animate-jump"
+          className="hidden sm:block w-[150px] md:w-[211px] md:h-[193px] absolute bottom-[243px] left-[-11px] animate-jump"
         />
       </div>
     </>

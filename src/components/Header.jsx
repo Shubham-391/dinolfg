@@ -216,7 +216,7 @@ function Header() {
             data-aos-once="true"
             data-aos-delay="2000"
             data-aos-duration="1000">
-            <div className="max-w-[250px] sm:max-w-[250px] min-[900px]:max-w-[350px] min-[1200px]:max-w-[394px] w-full mt-2 min-[800px]:ml-6 min-[1200px]:mt-[175px] min-[1200px]:ml-[46px]">
+            <div className="max-w-[250px] sm:max-w-[250px] min-[900px]:max-w-[350px] min-[1200px]:max-w-[394px] w-full mt-8 min-[800px]:ml-6 min-[1200px]:mt-[175px] min-[1200px]:ml-[46px]">
               <img
                 className="w-full object-cover"
                 src={aeroplane}
@@ -245,12 +245,12 @@ function Header() {
         </div>
         {/* dino images */}
         <img
-          className="absolute w-[90px] min-[1200px]:w-[131px] min-[1200px]:h-[165px] left-[50%] bottom-[18%] min-[1441px]:bottom-[16%] animate-cycleright"
+          className="absolute w-[90px] min-[1200px]:w-[131px] min-[1200px]:h-[165px] left-[2%] sm:left-[50%] bottom-[18%] min-[1441px]:bottom-[16%] animate-jump sm:animate-cycleright"
           src={dino2}
           alt="dino cartoon"
         />
         <img
-          className="absolute w-[120px] min-[1200px]:w-[211px] min-[1200px]:h-[267px] bottom-[11%] min-[1441px]:bottom-[9%] left-[50%] sm:left-[77%] animate-cycleleft2 sm:animate-cycleleft"
+          className="absolute w-[120px] min-[1200px]:w-[211px] min-[1200px]:h-[267px] bottom-[11%] min-[1441px]:bottom-[9%] left-[50%] sm:left-[77%] animate-jump sm:animate-cycleleft"
           src={dino1}
           alt="dino cartoon"
         />

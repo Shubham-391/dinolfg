@@ -8,10 +8,10 @@ function Section1() {
     <>
       <div
         id="about"
-        className="bg-section1bg bg-center bg-cover bg-no-repeat min-h-[690px] sm:min-h-[763px] relative overflow-hidden"
+        className="bg-section1bg bg-center bg-cover bg-no-repeat md:min-h-[763px] relative overflow-hidden"
       >
         <div
-          className="max-w-[623px] px-3 mx-auto pt-12 md:pt-[76px] relative z-[1]"
+          className="max-w-[623px] px-3 mx-auto pt-12 md:pt-[76px] relative z-[1] pb-12 md:pb-0"
           data-aos="zoom-in"
           data-aos-once="true"
           data-aos-duration="1000"
@@ -60,12 +60,12 @@ function Section1() {
           alt="tree"
         />
         <img
-          className="absolute w-[230px] sm:w-[297px] sm:h-[421px] top-[260px] left-[-102px]"
+          className="absolute w-[230px] sm:w-[297px] sm:h-[421px] bottom-0 md:top-[260px] left-[-102px]"
           src={section1tree2}
           alt="tree"
         />
         <img
-          className="w-[120px] sm:w-[169px] sm:h-[205px] absolute right-0 bottom-0 min-[900px]:bottom-[27%] animate-jump"
+          className="w-[169px] h-[205px] hidden min-[900px]:block absolute right-0 bottom-0 min-[900px]:bottom-[27%] animate-jump"
           src={section1dino}
           alt="dino cartoon"
         />

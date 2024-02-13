@@ -19,7 +19,7 @@ function Backtotop() {
     <>
       <button
         id="Top"
-        className="hidden bg-none border-none w-[40px] md:w-[50px] h-[40px] md:h-[50px] bottom-[1%] right-[1%] fixed z-[3]"
+        className="hidden bg-white rounded-[50%] border-none w-[40px] md:w-[50px] h-[40px] md:h-[50px] bottom-[1%] right-[1%] fixed z-[3]"
         onClick={up}
       >
         <img className="w-full" src={arrow} alt="back to top icon" />
