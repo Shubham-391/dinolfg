@@ -59,7 +59,7 @@ function Section3() {
             />
           </div>
           <img
-            className="w-[150px] sm:w-[250px] lg:w-[376px] lg:h-[502px] absolute bottom-0 lg:bottom-[150px] right-0 sm:right-[-59px] z-[-1]"
+            className="w-[150px] sm:w-[250px] lg:w-[376px] lg:h-[502px] absolute bottom-0 lg:bottom-[-25px] right-0 xl:right-[-195px] z-[-1]"
             src={section3tree}
             alt="tree"
           />
