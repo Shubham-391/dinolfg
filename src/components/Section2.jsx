@@ -98,7 +98,7 @@ function Section2() {
               <div className="max-w-[228px] w-full flex gap-2">
                 <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#FBA11D] rounded mt-1"></div>
                 <div className="max-w-[189px]">
-                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#FBA11D] text-left">
+                  <p className="font-balsamiq font-normal text-[20px] sm:text-[32px] sm:leading-[38.4px] text-[#FBA11D] text-left">
                     333,333,333
                   </p>
                   <p className="font-balsamiq font-normal text-lg sm:text-[24px] sm:leading-[33.24px] text-white mr-[3px] text-left">
@@ -110,10 +110,10 @@ function Section2() {
               <div className="max-w-[242px] w-full flex gap-2">
                 <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#23AAAC] rounded mt-1"></div>
                 <div className="max-w-[203px]">
-                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
+                  <p className="font-balsamiq font-normal text-[20px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
                     95% Uniswa
                   </p>
-                  <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
+                  <p className="font-balsamiq font-normal text-[20px] sm:text-[32px] sm:leading-[38.4px] text-[#23AAAC]">
                     5% Marketing
                   </p>
                   <p className="font-balsamiq font-normal text-lg sm:text-[23.65px] sm:leading-[32.76px] text-white">
@@ -124,21 +124,21 @@ function Section2() {
               {/* tax */}
               <div className="max-w-[180px] w-full flex gap-2">
                 <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#D45B07] rounded mt-1"></div>
-                <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#D45B07] text-start">
+                <p className="font-balsamiq font-normal text-[20px] sm:text-[32px] leading-[38.4px] text-[#D45B07] text-start">
                   No Tax
                 </p>
               </div>
               {/* mint */}
               <div className="max-w-[280px] w-full flex gap-2">
                 <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#FB5352] rounded mt-1"></div>
-                <p className="font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#FB5352] text-start">
+                <p className="font-balsamiq font-normal text-[20px] sm:text-[32px] leading-[38.4px] text-[#FB5352] text-start">
                   No Mint Function
                 </p>
               </div>
               {/* lock */}
               <div className="max-w-[258px] w-full flex gap-2">
                 <div className="w-[20px] sm:w-[25px] h-[20px] sm:h-[25px] bg-[#8EC627] rounded mt-1"></div>
-                <p className="max-w-[217px] font-balsamiq font-normal text-[25px] sm:text-[32px] leading-[38.4px] text-[#8EC627] text-start">
+                <p className="max-w-[217px] font-balsamiq font-normal text-[20px] sm:text-[32px] leading-[38.4px] text-[#8EC627] text-start">
                   Liquidity lock for 1 year
                 </p>
               </div>

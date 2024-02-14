@@ -18,7 +18,7 @@ function Section3() {
           </h2>
           <div className="max-w-[1014px] w-full lg:min-h-[266px] bg-[#09655A] border border-solid border-white rounded-[20px] relative mb-[125px]">
             <div className="pl-3 pr-3 lg:pr-0 lg:pl-[39px] py-6 lg:py-[62px]">
-              <p className="lg:max-w-[681px] w-full font-balsamiq font-normal text-[21px] sm:text-[32px] sm:leading-[38.4px] text-white mb-3 lg:mb-7 text-center lg:text-left">
+              <p className="lg:max-w-[681px] w-full font-balsamiq font-normal text-xl sm:text-[32px] sm:leading-[38.4px] text-white mb-3 lg:mb-7 text-center lg:text-left">
                 We are going to work hard in otder to add{" "}
                 <span className="font-bold">
                   <span className="text-[#8EC627]">$</span>
@@ -29,7 +29,7 @@ function Section3() {
                 </span>{" "}
                 to main platforms as a form of payment
               </p>
-              <p className="lg:max-w-[695px] w-full font-balsamiq font-normal text-[21px] sm:text-[32px] sm:leading-[38.4px] text-white text-center lg:text-left">
+              <p className="lg:max-w-[695px] w-full font-balsamiq font-normal text-xl sm:text-[32px] sm:leading-[38.4px] text-white text-center lg:text-left">
                 You will be able to buy a lot of things with{" "}
                 <span className="font-bold">
                   <span className="text-[#8EC627]">$</span>
@@ -47,7 +47,7 @@ function Section3() {
             />
           </div>
           <div className="max-w-[1014px] w-full lg:min-h-[266px] bg-[#09655A] border border-solid border-white rounded-[20px] ml-[14px] flex items-center justify-end relative">
-            <p className="lg:max-w-[681px] w-full font-balsamiq font-normal text-[21px] sm:text-[32px] sm:leading-[38.4px] text-white text-center lg:text-right pt-3 lg:pt-0 pb-3 lg:pb-0 pl-3 lg:pl-0 pr-3 lg:pr-[27px]">
+            <p className="lg:max-w-[681px] w-full font-balsamiq font-normal text-xl sm:text-[32px] sm:leading-[38.4px] text-white text-center lg:text-right pt-3 lg:pt-0 pb-3 lg:pb-0 pl-3 lg:pl-0 pr-3 lg:pr-[27px]">
               We are going to have staking and buyback/
               <br className="hidden lg:block" />
               burning mechanism

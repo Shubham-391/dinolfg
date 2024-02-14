@@ -60,7 +60,7 @@ function Footer() {
         </div>
         <div className="absolute z-[-1] bottom-0 bg-footerbg bg-cover w-full bg-no-repeat bg-center h-[340px]">
           <img
-            className="absolute animate-cycleleft bottom-[2%] left-[77%] w-[150px] md:w-[211px] md:h-[267px]"
+            className="absolute animate-jump md:animate-cycleleft min-[1200px]:animate-jump bottom-[2%] left-[45%] md:left-[77%] w-[150px] md:w-[180px] min-[1200px]:w-[211px] min-[1200px]:h-[267px]"
             src={footerdino}
             alt="dino cartoon"
           />

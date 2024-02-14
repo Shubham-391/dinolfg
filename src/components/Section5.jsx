@@ -42,7 +42,7 @@ function Section5() {
           data-aos-once="true"
           data-aos-duration="1000"
         >
-          <h2 className="font-chewy font-normal text-[32px] sm:text-[64px] leading-[83.63px] text-center text-white mb-[30px] sm:mb-[61px]">
+          <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] leading-[83.63px] text-center text-white mb-[30px] sm:mb-[61px]">
             FAQs
           </h2>
           {/* accordion */}

@@ -15,7 +15,7 @@ function Section4() {
         <div
           className="max-w-[1184px] w-full mx-auto px-3 min-[1100px]:min-h-[2168px]"          
         >
-          <h2 className="font-chewy font-normal text-[64px] leading-[83.63px] text-center text-white mb-[50px] md:mb-[97px]">
+          <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[50px] md:mb-[97px]">
             Roadmap
           </h2>
           <div className="relative flex flex-col gap-6 min-[1100px]:gap-0 w-full">
@@ -29,7 +29,7 @@ function Section4() {
                 alt="aeroplane"
               />
               <div className="flex flex-col sm:flex-row sm:gap-[60px] items-center px-2 sm:px-0">
-                <p className="font-chewy font-normal text-[50px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#FBA11D] drop-shadow-[0px_18px_18px_#00000040]">
+                <p className="font-chewy font-normal text-[35px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#FBA11D] drop-shadow-[0px_18px_18px_#00000040]">
                   01
                 </p>
                 <ul className="sm:list-disc text-center sm:text-start ">
@@ -55,7 +55,7 @@ function Section4() {
                 alt="tree"
               />
               <div className="flex flex-col sm:flex-row sm:gap-[60px] items-center px-2 sm:px-0">
-                <p className="font-chewy font-normal text-[50px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#8EC627] drop-shadow-[0px_18px_18px_#00000040]">
+                <p className="font-chewy font-normal text-[35px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#8EC627] drop-shadow-[0px_18px_18px_#00000040]">
                   02
                 </p>
                 <ul className="sm:list-disc text-center sm:text-start">
@@ -81,7 +81,7 @@ function Section4() {
                 alt="tree"
               />
               <div className="flex flex-col sm:flex-row sm:gap-[60px] items-center px-2 sm:px-0">
-                <p className="font-chewy font-normal text-[50px] sm:text-[150px] lg:text-[220.95px] lg:leading-[288.71px] text-[#D45B07] drop-shadow-[0px_18px_18px_#00000040]">
+                <p className="font-chewy font-normal text-[35px] sm:text-[150px] lg:text-[220.95px] lg:leading-[288.71px] text-[#D45B07] drop-shadow-[0px_18px_18px_#00000040]">
                   03
                 </p>
                 <ul className="sm:list-disc text-center sm:text-start">
@@ -107,7 +107,7 @@ function Section4() {
                 alt="bush"
               />
               <div className="flex flex-col sm:flex-row sm:gap-[60px] items-center px-2 sm:px-0">
-                <p className="font-chewy font-normal text-[50px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#23AAAC] drop-shadow-[0px_18px_18px_#00000040]">
+                <p className="font-chewy font-normal text-[35px] sm:text-[150px] lg:text-[200px] lg:leading-[261.33px] text-[#23AAAC] drop-shadow-[0px_18px_18px_#00000040]">
                   04
                 </p>
                 <ul className="sm:list-disc text-center sm:text-start">
