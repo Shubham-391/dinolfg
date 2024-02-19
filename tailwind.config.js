@@ -10,6 +10,8 @@ export default {
         section2bg: "url(/src/assets/images/webp/section2bg.webp)",
         section4bg: "url(/src/assets/images/webp/section4bg.webp)",
         footerbg: "url(/src/assets/images/webp/footerbg.webp)",
+        roadmapup: "url(/src/assets/images/webp/roadmapup.webp)",
+        roadmapdown: "url(/src/assets/images/webp/roadmapdown.webp)",
       },
       keyframes: {
         cycleright: {

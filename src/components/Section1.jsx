@@ -8,7 +8,7 @@ function Section1() {
     <>
       <div
         id="about"
-        className="bg-section1bg bg-center bg-cover bg-no-repeat md:min-h-[763px] relative overflow-hidden"
+        className="bg-section1bg bg-center bg-cover bg-no-repeat md:min-h-[763px] min-[1441px]:min-h-[870px] relative overflow-hidden"
       >
         <div
           className="max-w-[623px] px-3 mx-auto pt-12 md:pt-[76px] relative z-[1] pb-12 md:pb-0"

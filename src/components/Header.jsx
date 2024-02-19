@@ -15,7 +15,7 @@ function Header() {
     <>
       <div
         id="header"
-        className="min-h-screen min-[1200px]:min-h-[874px] bg-headerbg bg-[#09655A] bg-no-repeat w-full bg-cover bg-center flex flex-col relative overflow-hidden"
+        className="min-h-screen lg:min-h-[874px] min-[1600px]:min-h-[1150px] bg-headerbg bg-[#09655A] bg-no-repeat w-full bg-cover bg-center flex flex-col relative overflow-hidden"
       >
         {/* small screen navpage */}
         <ul
@@ -93,7 +93,7 @@ function Header() {
           <li>
             <a
               className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px] duration-300 hover:text-white"
-              href=""
+              href="#"
               onClick={() => setOpen(false)}
             >
               Join Now
@@ -180,7 +180,7 @@ function Header() {
                 <li className="hidden min-[992px]:block">
                   <a
                     className="bg-buttonbg w-[138px] h-[54.6px] bg-cover bg-center bg-no-repeat flex justify-center items-center font-chewy font-normal text-lg leading-[23.52px] text-black px-[36px] pt-[11px] pb-[19px] duration-300 hover:text-white"
-                    href=""
+                    href="#"
                   >
                     Join Now
                   </a>

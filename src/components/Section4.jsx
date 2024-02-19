@@ -8,21 +8,23 @@ import section4bush from "../assets/images/webp/section4bush.webp";
 function Section4() {
   return (
     <>
+      <div className="hidden min-[1550px]:block bg-roadmapup bg-no-repeat bg-cover bg-center w-full h-[298px]"></div>
       <div
         id="roadmap"
-        className="bg-section4bg bg-center bg-no-repeat bg-cover min-[1100px]:min-h-[2685px] flex items-center py-12 sm:py-[150px] md:py-[300px] min-[1100px]:py-0 "
+        className="bg-section4bg bg-center bg-no-repeat bg-cover min-[1100px]:min-h-[2685px] min-[1550px]:min-h-[0px] flex items-center py-12 sm:py-[150px] md:py-[300px] min-[1100px]:py-0 "
       >
-        <div
-          className="max-w-[1184px] w-full mx-auto px-3 min-[1100px]:min-h-[2168px]"          
-        >
+        <div className="max-w-[1184px] w-full mx-auto px-3 min-[1100px]:min-h-[2168px]">
           <h2 className="font-chewy font-normal text-[35px] sm:text-[64px] sm:leading-[83.63px] text-center text-white mb-[50px] md:mb-[97px]">
             Roadmap
           </h2>
           <div className="relative flex flex-col gap-6 min-[1100px]:gap-0 w-full">
             <div className="absolute hidden sm:block top-[11%] h-[78%] left-[8%] md:left-[6%] lg:left-[9%] min-[1100px]:hidden border-[5px] border-dashed border-[#0A4740]"></div>
-            <div className="min-[1100px]:min-h-[450px] flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start min-[1100px]:pl-[27px] relative z-[1]" data-aos="zoom-in"
-          data-aos-once="true"
-          data-aos-duration="1000">
+            <div
+              className="min-[1100px]:min-h-[450px] flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start min-[1100px]:pl-[27px] relative z-[1]"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <img
                 className="w-[150px] sm:w-[200px] lg:w-[326px] object-cover min-[1100px]:hidden"
                 src={section4aeroplane}
@@ -46,9 +48,12 @@ function Section4() {
               </div>
             </div>
 
-            <div className="min-[1100px]:min-h-[403px] flex flex-col items-center sm:flex-row justify-center sm:justify-start min-[1100px]:justify-center relative z-[1]" data-aos="zoom-in"
-          data-aos-once="true"
-          data-aos-duration="1000">
+            <div
+              className="min-[1100px]:min-h-[403px] flex flex-col items-center sm:flex-row justify-center sm:justify-start min-[1100px]:justify-center relative z-[1]"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <img
                 className="w-[100px] sm:w-[120px] lg:w-[213px] object-cover min-[1100px]:hidden"
                 src={section4tree}
@@ -72,9 +77,12 @@ function Section4() {
               </div>
             </div>
 
-            <div className="min-[1100px]:min-h-[487px] flex flex-col sm:flex-row items-center justify-center sm:justify-start relative z-[1]" data-aos="zoom-in"
-          data-aos-once="true"
-          data-aos-duration="1000">
+            <div
+              className="min-[1100px]:min-h-[487px] flex flex-col sm:flex-row items-center justify-center sm:justify-start relative z-[1]"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <img
                 className="w-[120px] lg:w-[200px] object-cover min-[1100px]:hidden"
                 src={section4tree2}
@@ -98,9 +106,12 @@ function Section4() {
               </div>
             </div>
 
-            <div className="min-[1100px]:min-h-[466px] flex flex-col sm:flex-row items-center justify-center sm:justify-start min-[1100px]:justify-center relative z-[1]" data-aos="zoom-in"
-          data-aos-once="true"
-          data-aos-duration="1000">
+            <div
+              className="min-[1100px]:min-h-[466px] flex flex-col sm:flex-row items-center justify-center sm:justify-start min-[1100px]:justify-center relative z-[1]"
+              data-aos="zoom-in"
+              data-aos-once="true"
+              data-aos-duration="1000"
+            >
               <img
                 className="w-[80px] sm:w-[100px] lg:w-[175px] lg:h-[107px] object-cover min-[1100px]:hidden"
                 src={section4bush}
@@ -131,6 +142,7 @@ function Section4() {
           </div>
         </div>
       </div>
+      <div className="hidden min-[1550px]:block bg-roadmapdown bg-no-repeat bg-cover bg-center w-full h-[298px]"></div>
     </>
   );
 }

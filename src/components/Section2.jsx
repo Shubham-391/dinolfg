@@ -13,7 +13,7 @@ function Section2() {
     <>
       <div
         id="tokenomics"
-        className="mb-12 md:mb-0 md:min-h-[1166px] bg-section2bg bg-center bg-no-repeat bg-cover relative"
+        className="mb-12 md:mb-0 md:min-h-[1166px] min-[1441px]:min-h-[1200px] min-[1550px]:min-h-[1520px] bg-section2bg bg-center bg-no-repeat bg-cover relative"
       >
         <div
           className="max-w-[1164px] mx-auto px-3"
